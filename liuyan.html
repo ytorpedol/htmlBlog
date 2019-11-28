@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>留言</title>
+<script language="javascript">
+function fun(){alert("暂不开放此功能")};
+</script>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+border:0;
+}
+#z1{
+	background-image:url(image/huawen.png);
+	background-repeat:repeat;		
+}
+#h1{
+	background-color:#0FF;
+	height:120px;
+	text-align:center;
+	padding:15px; 
+	position:absolute;
+	width:100%;
+	z-index:2;	
+}
+#h2{
+	font-size:60px;
+	color:#FFF;
+	font-family:"楷体";
+	font-weight:bolder;
+}
+#h3{
+	font-size:30px;
+	color:#FFF;
+	font-family:"楷体";
+	font-weight:bolder;
+}
+#h2:hover {
+	font-size:60px;
+	color:#FFF;
+	font-family:"楷体";
+	letter-spacing:10px;
+}
+#h3:hover {
+	font-size:30px;
+	color:#CCC;
+	font-family:"楷体";
+	letter-spacing:10px;
+}
+#jia{
+	position:fixed;
+	width:100%; 
+	z-index:1;
+	top:0;
+}
+#zh{
+	top:100px;
+	position:absolute;
+	width:100%;
+	z-index:3;	
+}
+
+#menu{
+	width:100%;
+	height:43px;
+	background-color:#93C;
+	padding-top:5px;
+}
+#menu a{
+	text-decoration:none;
+	text-align:center;
+	font-size:40px;
+	color:#FFF;
+	font-family:"楷体";
+	margin-right:40px;
+}
+#menu a:hover{
+	background-color:#3CF;
+	height:55px;
+}
+#m1{
+	margin-left:110px;
+	height:45px;
+}
+#m2{
+	background-color:#3CF;
+}
+#menu from{
+	float:right;
+	margin-right:110px;
+	padding:5px;
+}
+#s1{
+	line-height:30px;
+	margin-left:50px;
+	font-family:30px;
+	text-align:center;
+	width:100px;
+	float:right;
+	border-radius:40px;	
+}
+a{
+	text-decoration:none;
+}
+#n{
+	margin-top:170px;
+	width:900px;
+	margin-left:110px;
+	margin-bottom:15px;
+	background-color:#FFF;
+	height:1200px;
+	padding:15px;
+	float:left;
+}
+#n1{
+	border-color:#6C9;
+	height:200px;
+	width:800px;
+	margin-top:10px;
+	margin-left:15px;
+	color:#999;
+	border: 1px solid #ccc;
+	font-size:20px;
+}
+#n2{
+	margin-top:5px;
+	margin-left:700px;
+	height:40px;
+	width:60px;
+	font-size:25px;
+}
+#n3{
+	border: 1px solid #ccc;
+	margin-left:5px;
+	height:20px;
+	margin-bottom:15px;
+	font-size:15px;
+}
+.l{
+  margin-top:15px;
+  margin-left:30px;
+  width:700px;
+  height:120px;
+  background:#EFEFEF;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius:10px;
+  border-radius: 10px;
+}
+.l1{
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #EFEFEF;;
+  border-bottom: 13px solid transparent;
+}
+.l2{
+	padding:30px;
+	font-size:18px;
+}
+#l3{
+	padding-top:20px;
+}
+#l3 td{
+	color:#69F;
+	font-size:14px;
+}
+#y{
+	float:right;
+	margin-top:15px;
+}
+#y1{
+	width:320px;
+	height:300px;
+	padding:15px;
+	margin-bottom:15px;
+	margin-right:110px;
+	background-color:#FFF;
+	margin-top:155px;
+}
+#y2{
+	width:350px;
+	height:500px;
+	padding:0px;
+	text-align:center;
+}
+#t1 {
+	margin-top:100px;
+	color:#E0E0E0;
+	margin-left:400px;
+	font-size:15px;
+}
+#t3{
+	background-color:#0FF;
+}
+.t1 tr td:hover
+{
+	background-color:#6FF;
+}
+.t1 tr td{
+	background-color:#F0F0F0;
+}
+.t1{
+	clear:both;
+	text-align:center;
+	margin-left:450px;
+}	
+#foot{
+	width:1550px;
+	background-color:#000;
+	color:#FFF;
+	height:60px;
+	padding-top:20px;
+	clear:both;
+	font-size:20px;
+	text-align:center;
+}
+#d1{
+	margin-bottom:10px;
+	float:right;
+}	
+</style>
+</head>
+
+<body>
+<div id="jia">
+<div id="menu"><a href="shouye.html" id="m1">首页</a><a href="jiaocheng.html">教程</a><a href="liuyan.html" id="m2">留言</a><a href="zatang.html">杂谈</a><a href="biaoqingbao.html">表情包</a><from action=""method="get"><input name="serch" type="text"
+style="height:30px;width:300px;"/>&nbsp;&nbsp;&nbsp;&nbsp;<input name=""type="submit" value="Search" id="s1" onclick="fun()" /></from></div></div>
+<div id="z1"><div id="h1">
+<span id="h2">Ll博客</span><span id="h3">&nbsp;&nbsp;&nbsp;torpedo blog</span></div><div id="zh"><div id="menu"><a href="shouye.html" id="m1">首页</a><a href="jiaocheng.html">教程</a><a href="liuyan.html" id="m2">留言</a><a href="zatang.html">杂谈</a><a href="biaoqingbao.html">表情包</a><from action=""method="get"><input name="serch" type="text"
+style="height:30px;width:300px;"/>&nbsp;&nbsp;&nbsp;&nbsp;<input name=""type="submit" value="Search" id="s1" onclick="fun()" /></from></div><marquee>这是我的站，请大家多多指教！</marquee></div>
+<div id="n">
+<h1>留言板</h1><hr style=" height:2px;border:none;border-top:2px dotted #185598;" />
+<textarea id="n1">留言前请先填好昵称和邮箱！</textarea><br/>
+<input type="submit" value="提交" id="n2" onclick="fun()"/><br/>昵称：<input type="text" name="user" id="n3"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：<input type="text" name="user"/ id="n3"><br/><h2>大家的留言</<hr style="border:solid 1px #DEECD7"/>
+<div class="l">
+    <div class="l1"></div><div class="l2" style="padding-top:10px">请问如何删除百度相关搜索中的关键词？</div>
+   <div id="l3"><table width="300" border="0" cellspacing="15" cellpadding="15">
+  <tr>
+    <td>hhh</td>
+    <td style="color:#CCC">一天前</td>
+    <td>回复</td>
+  </tr>
+</table></div>
+</div>
+</div>
+<div id="y">
+<div id="y1">关于博主<hr /><center><img src="image/头像.jpg" width="140" height="140"/></center><center>Ll</center><br/>&nbsp;&nbsp;联系我:1115207322@qq.com<br/>&nbsp;&nbsp;hexo:<a href="https://ytorpedol.github.io/">https://ytorpedol.github.io/</a><br/>&nbsp;&nbsp;csdn:<a href="https://blog.csdn.net/qq_38243612" target="_blank" id="uid">qq_38243612</a><br/></div>
+<div id="y2">
+<table width="350" border="0" cellspacing="0" cellpadding="15">
+  <tr>
+    <td height="50" bgcolor="#00CCFF">Linux</td>
+  </tr>
+  <tr>
+    <td height="50" bgcolor="#FFFFCC">Web</td>
+  </tr>
+  <tr>
+    <td height="50" bgcolor="#FFCCFF">百度云</td>
+  </tr>
+  <tr>
+    <td height="50" bgcolor="#CCFFFF">Java</td>
+  </tr>
+  <tr>
+    <td height="50" bgcolor="#99FF66">杂谈</td>
+  </tr>
+</table>
+</div>
+</div>
+<div class="t1"><table width="200" border="0" cellspacing="10" cellpadding="10">
+  <tr>
+    <td id="t3">1</td>
+  </tr>
+</table></div>
+<div id="d1"><a href="#h1"><img src="image/db.gif" width="62" height="62" /></a></div>
+<div id="foot">Copyright © 2017-2018&nbsp;&nbsp;Ll博客</div>
+</div>
+
+</body>
+</html>
+
